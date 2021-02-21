@@ -1,5 +1,5 @@
 import React from "react";
-import "./Navbar.css";
+import "./Navbar.scss";
 import { ImCart } from "react-icons/im";
 
 import { BrowserRouter, Route, Link } from "react-router-dom";

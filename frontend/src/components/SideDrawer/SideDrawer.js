@@ -1,5 +1,5 @@
 import React from "react";
-import "./SideDrawer";
+import "./SideDrawer.scss";
 
 const SideDrawer = () => {
   return (

@@ -1,4 +1,5 @@
 import React from "react";
+import "./CartScreen.scss";
 
 const CartScreen = () => {
   return (
