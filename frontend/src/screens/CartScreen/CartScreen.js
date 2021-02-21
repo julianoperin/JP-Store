@@ -2,7 +2,7 @@ import React from "react";
 
 const CartScreen = () => {
   return (
-    <div>
+    <div className="cartScreen">
       <h1>CartScreen</h1>
     </div>
   );
