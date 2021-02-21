@@ -3,7 +3,12 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <h1>Testing...</h1>
+      {/*//! Navbar */}
+      {/*//! SideDrawer */}
+      {/*//! Backdrop */}
+      {/*//! HomeScreen */}
+      {/*//! ProductScreen */}
+      {/*//! CartScreen */}
     </div>
   );
 }
