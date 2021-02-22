@@ -1,10 +1,10 @@
 import React from "react";
 import "./Backdrop.scss";
 
-const Backdrop = ({ show }) => {
+const Backdrop = ({ show, click }) => {
   return (
     show && (
-      <div className="backdrop">
+      <div className="backdrop" onClick={click}>
         <h1>Backdrop</h1>
       </div>
     )

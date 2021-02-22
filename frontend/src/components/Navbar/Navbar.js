@@ -4,7 +4,7 @@ import { ImCart } from "react-icons/im";
 
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = ({ click }) => {
   return (
     <nav className="navbar">
       {/*//? logo */}
@@ -14,6 +14,17 @@ const Navbar = () => {
       {/*//? links */}
       <div className="cart-link-container">
         <ul className="navbar__links">
+          <li>
+            <Link className="about" to="/about">
+              About
+            </Link>
+          </li>
+
+          <li>
+            <Link className="contact" to="/contact">
+              Contact
+            </Link>
+          </li>
           <li>
             <Link className="shop" to="/">
               Shop
@@ -29,7 +40,7 @@ const Navbar = () => {
       </div>
 
       {/*//? hamburger menu*/}
-      <div className="hamburger__menu">
+      <div className="hamburger__menu" onClick={click}>
         <div></div>
         <div></div>
         <div></div>
