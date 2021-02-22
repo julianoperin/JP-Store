@@ -7,11 +7,11 @@ import { BrowserRouter, Route, Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      {/* logo */}
+      {/*//? logo */}
       <div className="navbar__logo">
         <h2 style={{ fontFamily: "cursive" }}>JPstore</h2>
       </div>
-      {/* links */}
+      {/*//? links */}
       <div className="cart-link-container">
         <ul className="navbar__links">
           <li>
@@ -28,8 +28,12 @@ const Navbar = () => {
         </ul>
       </div>
 
-      {/* hamburger menu*/}
-      <div className="hamburger__menu"></div>
+      {/*//? hamburger menu*/}
+      <div className="hamburger__menu">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </nav>
   );
 };
