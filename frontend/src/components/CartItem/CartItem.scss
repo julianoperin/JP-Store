@@ -1,0 +1,64 @@
+.cartitem {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 8px;
+  display: grid;
+  grid-auto-columns: 1fr 4fr 1fr 1fr 1fr;
+  background: #fff;
+  border-radius: 10px;
+  place-items: center;
+
+  .cartitem__name {
+    text-decoration: none;
+    color: #222;
+  }
+
+  .cartitem__name:hover {
+    text-decoration: none;
+    color: red;
+  }
+
+  .caritem__select {
+    padding: 5px;
+    border: none;
+  }
+
+  .caritem__deleteBtn {
+    font-size: 1.5rem;
+    color: red;
+    background: #f4f4f4;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+  }
+}
+
+@media (max-width: 700px) {
+  .cartitem__name {
+    font-size: 0.8rem;
+  }
+
+  .caritem__select,
+  .caritem__deleteBtn {
+    padding: 8px 13px;
+  }
+
+  .cartitem__price {
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .cartitem__name {
+    font-size: 0.6rem;
+  }
+
+  .caritem__select,
+  .caritem__deleteBtn {
+    padding: 5px 8px;
+  }
+
+  .cartitem__price {
+    padding: 0.6rem;
+  }
+}

@@ -1,6 +1,8 @@
 import React from "react";
 import "./CartItem.scss";
 
+import { GrTrash } from "react-icons/gr";
+
 import { Link } from "react-router-dom";
 
 const CartItem = () => {
@@ -19,12 +21,16 @@ const CartItem = () => {
 
       <p className="cartitem__price">$499.99</p>
 
-      <select>
+      <select className="caritem__select">
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
       </select>
+
+      <button className="caritem__deleteBtn">
+        <GrTrash />
+      </button>
     </div>
   );
 };
