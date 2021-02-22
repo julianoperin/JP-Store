@@ -3,8 +3,12 @@ import "./CartScreen.scss";
 
 const CartScreen = () => {
   return (
-    <div className="cartScreen">
-      <h1>CartScreen</h1>
+    <div className="cartscreen">
+      <div className="cartscreen__left">
+        <h2>Shopping Cart</h2>
+        <CartItem />
+      </div>
+      <div className="cartscreen__right"></div>
     </div>
   );
 };
