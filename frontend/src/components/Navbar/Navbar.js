@@ -6,24 +6,27 @@ import { BrowserRouter, Route, Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="navbar">
       {/* logo */}
       <div className="navbar__logo">
         <h2 style={{ fontFamily: "cursive" }}>JPstore</h2>
       </div>
       {/* links */}
-      <ul className="navbar__links">
-        <li>
-          <Link to="/cart">
-            <ImCart />
-            Cart
-            <span className="cartlogo__badge">0</span>
-          </Link>
-        </li>
-        <li>
-          <Link to="/">Shop</Link>
-        </li>
-      </ul>
+      <div className="cart-link-container">
+        <ul className="navbar__links">
+          <li>
+            <Link className="shop" to="/">
+              Shop
+            </Link>
+          </li>
+          <li className="cart-btn">
+            <Link className="cart-icon" to="/cart">
+              <ImCart />
+              <span className="cartlogo__badge">0</span>
+            </Link>
+          </li>
+        </ul>
+      </div>
 
       {/* hamburger menu*/}
       <div className="hamburger__menu"></div>
