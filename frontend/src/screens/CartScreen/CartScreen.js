@@ -1,6 +1,8 @@
 import React from "react";
 import "./CartScreen.scss";
 
+import CartItem from "../../components/CartItem/CartItem.js";
+
 const CartScreen = () => {
   return (
     <div className="cartscreen">
@@ -8,7 +10,15 @@ const CartScreen = () => {
         <h2>Shopping Cart</h2>
         <CartItem />
       </div>
-      <div className="cartscreen__right"></div>
+      <div className="cartscreen__right">
+        <div className="cartscreen__info">
+          <p>Subtotal (0) items</p>
+          <p>$678</p>
+        </div>
+        <div>
+          <button>Proceed To Checkout</button>
+        </div>
+      </div>
     </div>
   );
 };
