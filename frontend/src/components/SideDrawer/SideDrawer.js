@@ -1,9 +1,15 @@
 import React from "react";
 import "./SideDrawer.scss";
 
-const SideDrawer = () => {
+const SideDrawer = ({ show }) => {
+  const sideDrawerClass = ["sidedrawer"];
+
+  if (show) {
+    sideDrawerClass.push("show");
+  }
+
   return (
-    <div>
+    <div className={sideDrawerClass.join(" ")}>
       <h1>SideDrawer</h1>
     </div>
   );

@@ -1,11 +1,13 @@
 import React from "react";
 import "./Backdrop.scss";
 
-const Backdrop = () => {
+const Backdrop = ({ show }) => {
   return (
-    <div>
-      <h1>Backdrop</h1>
-    </div>
+    show && (
+      <div className="backdrop">
+        <h1>Backdrop</h1>
+      </div>
+    )
   );
 };
 
