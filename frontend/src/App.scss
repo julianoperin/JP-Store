@@ -16,3 +16,8 @@ img {
   width: 100%;
   object-fit: contain;
 }
+
+button:focus,
+select:focus {
+  outline: none;
+}
