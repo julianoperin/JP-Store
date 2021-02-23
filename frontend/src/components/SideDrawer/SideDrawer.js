@@ -2,6 +2,7 @@ import React from "react";
 import "./SideDrawer.scss";
 import { Link } from "react-router-dom";
 import { ImCart } from "react-icons/im";
+import { useSelector } from "react-redux";
 
 const SideDrawer = ({ show, click }) => {
   const sideDrawerClass = ["sidedrawer"];
@@ -10,6 +11,13 @@ const SideDrawer = ({ show, click }) => {
     sideDrawerClass.push("show");
   }
 
+  const cart = useSelector((state) => state.cart);
+  const { cartItems } = cart;
+
+  const getCartCount = () => {
+    return cartItems.reduce((qty, item) => qty + Number(item.qty), 0);
+  };
+
   return (
     <div className={sideDrawerClass.join(" ")}>
       <div className="cart-link-containerr">
@@ -17,7 +25,7 @@ const SideDrawer = ({ show, click }) => {
           <li className="cart-btn">
             <Link className="cart-iconn" to="/cart">
               <ImCart />
-              <span className="cartlogo__badgee">0</span>
+              <span className="cartlogo__badgee">{getCartCount()}</span>
             </Link>
           </li>
           <li>
