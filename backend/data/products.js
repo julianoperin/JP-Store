@@ -53,6 +53,33 @@ const products = [
     price: 140,
     countInStock: 10,
   },
+  {
+    name: "PS4 Controller",
+    imageUrl:
+      "https://images.unsplash.com/photo-1577741314755-048d8525d31e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+    description:
+      "PS4 Flip 4 is the next generation in the award-winning Flip series; it is a portable Bluetooth speaker that delivers surprisingly powerful stereo sound. This compact speaker is powered by a 3000mAh rechargeable Li-ion battery that offers up to 12 hours of continuous, high-quality audio playtime.",
+    price: 140,
+    countInStock: 8,
+  },
+  {
+    name: "APPLE TV",
+    imageUrl:
+      "https://images.unsplash.com/photo-1591970698020-e685959dcdaa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
+    description:
+      "Apple tv Flip 4 is the next generation in the award-winning Flip series; it is a portable Bluetooth speaker that delivers surprisingly powerful stereo sound. This compact speaker is powered by a 3000mAh rechargeable Li-ion battery that offers up to 12 hours of continuous, high-quality audio playtime.",
+    price: 199.99,
+    countInStock: 15,
+  },
+  {
+    name: "XBOX",
+    imageUrl:
+      "https://images.unsplash.com/photo-1605901309584-818e25960a8f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1478&q=80",
+    description:
+      "JBL Flip 4 is the next generation in the award-winning Flip series; it is a portable Bluetooth speaker that delivers surprisingly powerful stereo sound. This compact speaker is powered by a 3000mAh rechargeable Li-ion battery that offers up to 12 hours of continuous, high-quality audio playtime.",
+    price: 549.99,
+    countInStock: 4,
+  },
 ];
 
 module.exports = products;
