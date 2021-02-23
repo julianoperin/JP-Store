@@ -21,7 +21,7 @@ const CartItem = () => {
 
       <p className="cartitem__price">$499.99</p>
 
-      <select className="caritem__select">
+      <select className="cartitem__select">
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
