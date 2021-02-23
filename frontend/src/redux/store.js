@@ -4,6 +4,10 @@ import { composeWithDevTools } from "redux-devtools-extension";
 
 //! Reducers
 import { cartReducer } from "./reducers/cartReducers";
+import {
+  getProductsDetailsReducer,
+  getProductReducer,
+} from "./reducers/productReducers";
 
 const reducer = combineReducers({
   cart: cartReducer,
