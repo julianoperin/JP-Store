@@ -1,6 +1,8 @@
 import React from "react";
 import "./CartScreen.scss";
 
+// import { useDispatch, useSelector } from "react-redux";
+
 import CartItem from "../../components/CartItem/CartItem.js";
 
 const CartScreen = () => {
