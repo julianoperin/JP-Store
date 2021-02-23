@@ -12,7 +12,7 @@ import {
 const reducer = combineReducers({
   cart: cartReducer,
   getProducts: getProductsReducer,
-  getProductsDetails: getProductsDetailsReducer,
+  getProductDetails: getProductsDetailsReducer,
 });
 
 const middleware = [thunk];
