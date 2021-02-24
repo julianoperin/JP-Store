@@ -24,6 +24,11 @@ const Navbar = ({ click }) => {
       <div className="cart-link-container">
         <ul className="navbar__links">
           <li>
+            <Link className="shop" to="/">
+              Shop
+            </Link>
+          </li>
+          <li>
             <Link className="about" to="/about">
               About
             </Link>
@@ -34,11 +39,7 @@ const Navbar = ({ click }) => {
               Contact
             </Link>
           </li>
-          <li>
-            <Link className="shop" to="/">
-              Shop
-            </Link>
-          </li>
+
           <li className="cart-btn">
             <Link className="cart-icon" to="/cart">
               <ImCart />
