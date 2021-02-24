@@ -4,6 +4,7 @@ import { useSelector, useDispatch } from "react-redux";
 
 //! Components
 import Product from "../../components/Product/Product.js";
+import NewsLetter from "../../components/NewsLetter/NewsLetter.js";
 
 //! Actions
 import { getProducts as listProducts } from "../../redux/actions/productActions";
@@ -20,6 +21,7 @@ const HomeScreen = () => {
 
   return (
     <div className="homescreen">
+      <NewsLetter />
       <h2 className="homescreen__title">Latest Products</h2>
 
       <div className="homescreen__products">

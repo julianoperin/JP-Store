@@ -1,0 +1,71 @@
+.body-newsletter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #d5e5b5;
+  min-height: 35vh;
+  overflow: visible !important;
+  z-index: 500;
+}
+
+.container-newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  p {
+    max-width: 450px;
+    margin: 20px auto;
+    font-size: 1.1rem;
+    font-weight: 200;
+  }
+
+  .email-box {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .email-box .envelope {
+    background: #004c40;
+    width: 40px;
+    line-height: 40px !important;
+    color: white;
+    font-size: 1.3rem;
+  }
+
+  .envelopy {
+    padding-top: 3px;
+  }
+
+  .tbox,
+  .btnn {
+    border: none;
+    outline: none;
+  }
+
+  .tbox {
+    width: 260px;
+    padding: 0 10px;
+  }
+  .btnn {
+    background: #004c40;
+    color: #fff;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+}
+
+.banner {
+  background: url("../../Assets/news.jpg") no-repeat center;
+  background-size: cover;
+  padding: 100px 40px;
+  text-align: center;
+}
+
+@media (max-width: 930px) {
+  .body-newsletter {
+    grid-template-columns: 1fr;
+  }
+}
