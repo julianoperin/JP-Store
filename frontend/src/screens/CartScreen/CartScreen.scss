@@ -20,7 +20,8 @@
     background: #fff;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
     height: fit-content;
-    margin-right: 1rem;
+    // margin: 7rem 1rem 0 0;
+    margin: 7rem 1rem 0 0;
   }
 
   .cartscreen__right div {
@@ -98,7 +99,7 @@
   }
 
   .cartscreen__right {
-    margin: 1rem;
+    margin: 1rem !important;
   }
 }
 

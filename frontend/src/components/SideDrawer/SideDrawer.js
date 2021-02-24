@@ -30,7 +30,7 @@ const SideDrawer = ({ show, click }) => {
           </li>
           <li>
             <Link className="shopp anchor" to="/">
-              Shop
+              Products
             </Link>
           </li>
           <li>

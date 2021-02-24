@@ -1,8 +1,8 @@
 const products = [
   {
-    name: "Peace Lily",
+    name: "Snake Plant",
     imageUrl:
-      "https://images-na.ssl-images-amazon.com/images/I/61fZdtBOHSL._AC_SL1000_.jpg?size=200",
+      "https://images.unsplash.com/photo-1563419837758-e48ef1b731dd?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80",
     description:
       "Best in bright, indirect light. Can tolerate low light levels, but will produce more blooms with more light. Spathiphyllum is a genus of about 47 species of monocotyledonous flowering plants in the family Araceae, native to tropical regions of the Americas and southeastern Asia. Certain species of Spathiphyllum are commonly known as spath or peace lilies.",
     price: 56.99,
@@ -95,8 +95,8 @@ const products = [
     imageUrl:
       "https://images.unsplash.com/photo-1603436326446-74e2d65f3168?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=706&q=80",
     description:
-      "HPerhaps best known for gardening supplies and garden-inspired decor, Anthropologie spin-off Terrain offers a number of ethereal houseplants—think a fragrant pail of pre-potted jasmine—for purchase online (in lovely planters, to boot). ",
-    price: 59.99.99,
+      "Perhaps best known for gardening supplies and garden-inspired decor, Anthropologie spin-off Terrain offers a number of ethereal houseplants—think a fragrant pail of pre-potted jasmine—for purchase online (in lovely planters, to boot). ",
+    price: 59.99,
     countInStock: 4,
   },
 ];

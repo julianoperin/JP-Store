@@ -9,7 +9,14 @@
   place-items: center;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 
+  .cartitem__image {
+    height: 70px;
+  }
+
   .cartitem__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     border-radius: 10px;
   }
 
