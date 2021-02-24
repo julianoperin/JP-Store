@@ -23,6 +23,7 @@ const HomeScreen = () => {
     <div className="homescreen">
       <NewsLetter />
       <h2 className="homescreen__title">Latest Products</h2>
+      <div className="greenLine"></div>
 
       <div className="homescreen__products">
         {loading ? (

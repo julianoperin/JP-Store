@@ -16,7 +16,7 @@
   p {
     max-width: 450px;
     margin: 20px auto;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 200;
   }
 
@@ -32,6 +32,8 @@
     line-height: 40px !important;
     color: white;
     font-size: 1.3rem;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
   }
 
   .envelopy {
@@ -44,10 +46,16 @@
     outline: none;
   }
 
+  .btnn {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
   .tbox {
     width: 260px;
     padding: 0 10px;
   }
+
   .btnn {
     background: #004c40;
     color: #fff;
@@ -67,5 +75,43 @@
 @media (max-width: 930px) {
   .body-newsletter {
     grid-template-columns: 1fr;
+  }
+
+  .banner {
+    display: none;
+  }
+}
+
+@media (max-width: 455px) {
+  .email-box {
+    height: 30px;
+  }
+
+  p {
+    margin: 20px 15px !important;
+  }
+
+  .container-newsletter .tbox {
+    width: 230px !important;
+    padding: 0 5px;
+  }
+
+  .container-newsletter h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .email-box {
+    height: 30px;
+  }
+
+  p {
+    margin: 20px !important;
+  }
+
+  .container-newsletter .tbox {
+    width: 178px !important;
+    padding: 0 5px;
   }
 }

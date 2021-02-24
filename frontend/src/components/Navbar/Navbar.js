@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.scss";
 import { ImCart } from "react-icons/im";
+import { SiShopify } from "react-icons/si";
 
 import { Link } from "react-router-dom";
 
@@ -18,7 +19,9 @@ const Navbar = ({ click }) => {
     <nav className="navbar">
       {/*//? logo */}
       <div className="navbar__logo">
-        <h2>JPstore</h2>
+        <h2>
+          <SiShopify /> Shopifly
+        </h2>
       </div>
       {/*//? links */}
       <div className="cart-link-container">
@@ -26,7 +29,7 @@ const Navbar = ({ click }) => {
           <li
             className="first-li"
             style={{
-              background: "#D5E5B5",
+              background: "#004C40",
               padding: "10px 14px",
               borderRadius: "15px",
               color: "#fff",

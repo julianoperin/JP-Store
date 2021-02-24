@@ -1,5 +1,5 @@
 .sidedrawer {
-  width: 70%;
+  width: 65%;
   height: 100vh;
   background: #fff;
   position: fixed;
@@ -51,13 +51,13 @@
     .cartlogo__badgee {
       display: block;
       position: absolute;
-      background: red;
+      background: #d5e5b5;
       top: -10px;
       right: 15px;
       padding: 0rem 0.4rem;
       border-radius: 50%;
       font-size: 1rem;
-      color: white;
+      color: #000;
       z-index: 100;
       transition: 0.4s ease;
     }
@@ -66,8 +66,9 @@
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #004c40;
   font-size: 1.5rem;
+  font-weight: 100;
 }
 
 a:hover {
