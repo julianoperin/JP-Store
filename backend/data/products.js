@@ -1,83 +1,102 @@
 const products = [
   {
-    name: "PlayStation 5",
+    name: "Peace Lily",
     imageUrl:
-      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80",
+      "https://images-na.ssl-images-amazon.com/images/I/61fZdtBOHSL._AC_SL1000_.jpg?size=200",
     description:
-      "PlayStation 5 (PS5) is a home video game console developed by Sony Interactive Entertainment. Announced in 2019 as the successor to the PlayStation 4, the PS5 was released on November 12, 2020 in Australia, Japan, New Zealand, North America, Singapore, and South Korea, and November 19, 2020 onwards in other major markets except China and India.",
-    price: 499,
+      "Best in bright, indirect light. Can tolerate low light levels, but will produce more blooms with more light. Spathiphyllum is a genus of about 47 species of monocotyledonous flowering plants in the family Araceae, native to tropical regions of the Americas and southeastern Asia. Certain species of Spathiphyllum are commonly known as spath or peace lilies.",
+    price: 56.99,
     countInStock: 15,
   },
   {
-    name: "Iphone 12",
+    name: "Juniper Bonsai",
     imageUrl:
-      "https://images.unsplash.com/photo-1605787020600-b9ebd5df1d07?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1463&q=80",
+      "https://images.pexels.com/photos/2778192/pexels-photo-2778192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940?size=200",
     description:
-      "Welcome to a new era of iPhone. Beautifully bright 6.1-inch Super Retina XDR display.1 Ceramic Shield with 4x better drop performance.2 Incredible low-light photography with Night mode on all cameras. Cinema-grade Dolby Vision video recording, editing, and playback. Powerful A14 Bionic chip. And new MagSafe accessories for easy attach and faster wireless charging.3 Let the fun begin.",
-    price: 1099,
+      "The Juniper Bonsai is a miniature version of the actual tree and it is not a houseplant so your bonsai must be kept in a cool or cold environment in the winter season. You have to grow your juniper bonsai tree where it will be receiving more than 4 hours of sunlight every day, and use a soil that tends to become dry.",
+    price: 149.99,
     countInStock: 10,
   },
   {
-    name: "Cannon EOS-1D",
+    name: "Majesty Palm",
     imageUrl:
-      "https://images.unsplash.com/photo-1519183071298-a2962feb14f4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "https://images.unsplash.com/photo-1497215641119-bbe6d71ebaae?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
     description:
       "The EOS-1D X combines speed with image quality, to create the next generation camera for professionals. Full frame 18 megapixel sensor with Dual “DIGIC 5+” processors sets the standard, and up to 12 frames per second shooting takes it beyond.",
     price: 1300,
     countInStock: 5,
   },
   {
-    name: "Amazon Alexa",
+    name: "Echeveria",
     imageUrl:
-      "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80",
+      "https://images.unsplash.com/photo-1496643220534-f44559ffcb75?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80",
     description:
-      "It is capable of voice interaction, music playback, making to-do lists, setting alarms, streaming podcasts, playing audiobooks, and providing weather, traffic, sports, and other real-time information, such as news. Alexa can also control several smart devices using itself as a home automation system.",
-    price: 50,
-    countInStock: 25,
-  },
-  {
-    name: "Audio Technica Headphones",
-    imageUrl:
-      "https://images.unsplash.com/photo-1558756520-22cfe5d382ca?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-    description:
-      "Outfitted with 45mm large-aperture dynamic drivers and an over-ear, closed-back design, the ATH-M50x headphones deliver clarity, deep bass, and extended bandwidth (15 Hz to 28 kHz) while isolating you from outside sounds.",
-    price: 233,
-    countInStock: 4,
-  },
-  {
-    name: "JBL FLIP 4",
-    imageUrl:
-      "https://images.unsplash.com/photo-1564424224827-cd24b8915874?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80",
-    description:
-      "JBL Flip 4 is the next generation in the award-winning Flip series; it is a portable Bluetooth speaker that delivers surprisingly powerful stereo sound. This compact speaker is powered by a 3000mAh rechargeable Li-ion battery that offers up to 12 hours of continuous, high-quality audio playtime.",
-    price: 140,
-    countInStock: 10,
-  },
-  {
-    name: "PS4 Controller",
-    imageUrl:
-      "https://images.unsplash.com/photo-1577741314755-048d8525d31e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
-    description:
-      "PS4 Flip 4 is the next generation in the award-winning Flip series; it is a portable Bluetooth speaker that delivers surprisingly powerful stereo sound. This compact speaker is powered by a 3000mAh rechargeable Li-ion battery that offers up to 12 hours of continuous, high-quality audio playtime.",
-    price: 140,
-    countInStock: 8,
-  },
-  {
-    name: "APPLE TV",
-    imageUrl:
-      "https://images.unsplash.com/photo-1591970698020-e685959dcdaa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
-    description:
-      "Apple tv Flip 4 is the next generation in the award-winning Flip series; it is a portable Bluetooth speaker that delivers surprisingly powerful stereo sound. This compact speaker is powered by a 3000mAh rechargeable Li-ion battery that offers up to 12 hours of continuous, high-quality audio playtime.",
-    price: 199.99,
+      "Echeveria is a large genus of flowering plants in the family Crassulaceae, native to semi-desert areas of Central America, Mexico and northwestern South America.",
+    price: 50.49,
     countInStock: 15,
   },
   {
-    name: "XBOX",
+    name: "Haworthia",
     imageUrl:
-      "https://images.unsplash.com/photo-1605901309584-818e25960a8f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1478&q=80",
+      "https://images.unsplash.com/photo-1565839376295-7d3ed1686bef?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
     description:
-      "JBL Flip 4 is the next generation in the award-winning Flip series; it is a portable Bluetooth speaker that delivers surprisingly powerful stereo sound. This compact speaker is powered by a 3000mAh rechargeable Li-ion battery that offers up to 12 hours of continuous, high-quality audio playtime.",
-    price: 549.99,
+      "Haworthia is a large genus of small succulent plants endemic to Southern Africa . Like the aloes, they are members of the subfamily Asphodeloideae and they generally resemble miniature aloes, except in their flowers, which are distinctive in appearance. They are popular garden and container plants.",
+    price: 99.99,
+    countInStock: 4,
+  },
+  {
+    name: "Candelabra Tree",
+    imageUrl:
+      "https://images.unsplash.com/photo-1612362174548-19faa867705b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=676&q=80",
+    description:
+      "Euphorbia ingens is a species of flowering plant in the family Euphorbiaceae. It is native to dry areas of southern Africa. It is popularly known as the candelabra tree or naboom, and its milky latex can be extremely poisonous, and a dangerous irritant.",
+    price: 79.99,
+    countInStock: 10,
+  },
+  {
+    name: "Fig",
+    imageUrl:
+      "https://images.unsplash.com/photo-1453904300235-0f2f60b15b5d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=633&q=80",
+    description:
+      "Ficus lyrata, commonly known as the fiddle-leaf fig, is a species of flowering plant in the mulberry and fig family Moraceae. It is native to western Africa, from Cameroon west to Sierra Leone, where it grows in lowland tropical rainforest. It can grow up to 12–15 m tall.",
+    price: 144,
+    countInStock: 8,
+  },
+  {
+    name: "Aloe Vera",
+    imageUrl:
+      "https://images.unsplash.com/photo-1485955900006-10f4d324d411?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1052&q=80",
+    description:
+      "Aloe vera is a succulent plant species of the genus Aloe. An evergreen perennial, it originates from the Arabian Peninsula, but grows wild in tropical, semi-tropical, and arid climates around the world. It is cultivated for agricultural and medicinal uses.",
+    price: 19.49,
+    countInStock: 15,
+  },
+
+  {
+    name: "Hedera 'Ivy'",
+    imageUrl:
+      "https://images.unsplash.com/photo-1508502726440-477c94bc369e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80",
+    description:
+      "Hedera, commonly called ivy (plural ivies), is a genus of 12–15 species of evergreen climbing or ground-creeping woody plants in the family Araliaceae, native to western, central and southern Europe, Macaronesia, northwestern Africa and across central-southern Asia east to Japan and Taiwan.",
+    price: 50,
+    countInStock: 8,
+  },
+  {
+    name: "Maple Bonsai",
+    imageUrl:
+      "https://images.unsplash.com/photo-1470364693235-a4fe27c60914?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+    description:
+      'It is widely grown in temperate regions as an ornamental tree. It was introduced very early to Japan, where its name translates as "China maple". It is a small to medium-sized deciduous tree reaching a height of 5–20 m with a trunk up to 50 cm diameter.',
+    price: 74.49,
+    countInStock: 9,
+  },
+  {
+    name: "Terrain'",
+    imageUrl:
+      "https://images.unsplash.com/photo-1603436326446-74e2d65f3168?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=706&q=80",
+    description:
+      "HPerhaps best known for gardening supplies and garden-inspired decor, Anthropologie spin-off Terrain offers a number of ethereal houseplants—think a fragrant pail of pre-potted jasmine—for purchase online (in lovely planters, to boot). ",
+    price: 59.99.99,
     countInStock: 4,
   },
 ];
