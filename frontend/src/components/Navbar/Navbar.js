@@ -18,13 +18,21 @@ const Navbar = ({ click }) => {
     <nav className="navbar">
       {/*//? logo */}
       <div className="navbar__logo">
-        <h2 style={{ fontFamily: "cursive" }}>JPstore</h2>
+        <h2>JPstore</h2>
       </div>
       {/*//? links */}
       <div className="cart-link-container">
         <ul className="navbar__links">
-          <li>
-            <Link className="shop" to="/">
+          <li
+            className="first-li"
+            style={{
+              background: "#D5E5B5",
+              padding: "10px 14px",
+              borderRadius: "15px",
+              color: "#fff",
+            }}
+          >
+            <Link style={{ color: "#fff" }} className="shop" to="/">
               Shop
             </Link>
           </li>

@@ -9,8 +9,9 @@
   z-index: 50;
 
   .navbar__logo h2 {
-    color: #222;
-    font-size: 1.5rem;
+    font-family: cursive;
+    font-size: 2.5rem;
+    color: #004c40;
     margin-left: 0.7rem;
     cursor: pointer;
   }
@@ -24,28 +25,24 @@
       align-items: center;
       justify-content: center;
 
-      .shop:hover {
-        color: black;
-      }
-
       .cart-icon {
         font-size: 1.5rem;
       }
       .cart-icon:hover {
-        color: #000;
+        color: #5f8e3d;
 
         .cartlogo__badge {
           color: black;
-          background: white;
+          background: #d5e5b5;
         }
       }
 
       .cartlogo__badge {
         display: block;
         position: absolute;
-        background: black;
-        top: -10px;
-        right: -10px;
+        background: #5f8e3d;
+        top: 0;
+        right: -15px;
         padding: 0rem 0.4rem;
         border-radius: 50%;
         font-size: 1rem;
@@ -104,4 +101,12 @@
   .navbar__logo h2 {
     // font-size: 1rem;
   }
+}
+
+.hover {
+  color: #fff !important;
+  background: "#D5E5B5" !important;
+  padding: "10px 14px";
+  border-radius: "15px";
+  color: "#fff";
 }
