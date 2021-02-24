@@ -29,18 +29,18 @@ const SideDrawer = ({ show, click }) => {
             </Link>
           </li>
           <li>
-            <Link className="shopp" to="/">
+            <Link className="shopp anchor" to="/">
               Shop
             </Link>
           </li>
           <li>
-            <Link className="about" to="/about">
+            <Link className="about anchor" to="/about">
               About
             </Link>
           </li>
 
           <li>
-            <Link className="contact" to="/contact">
+            <Link className="contact anchor" to="/contact">
               Contact
             </Link>
           </li>

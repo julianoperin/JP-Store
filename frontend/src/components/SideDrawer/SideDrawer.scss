@@ -71,8 +71,8 @@ a {
   font-weight: 100;
 }
 
-a:hover {
-  //   border-bottom: 2px solid red;
+.anchor:hover {
+  border-bottom: 1px solid #004c40;
 }
 
 @media (min-width: 960px) {

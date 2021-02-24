@@ -9,8 +9,8 @@
   z-index: 50;
 
   .navbar__logo h2 {
-    font-family: cursive;
-    font-size: 2.5rem;
+    // font-family: m;
+    font-size: 2rem;
     color: #004c40;
     margin-left: 0.7rem;
     cursor: pointer;
@@ -103,10 +103,7 @@
   }
 }
 
-.hover {
-  color: #fff !important;
-  background: "#D5E5B5" !important;
-  padding: "10px 14px";
-  border-radius: "15px";
-  color: "#fff";
+.first-li:hover {
+  transform: translateY(-1px);
+  cursor: pointer;
 }

@@ -51,10 +51,11 @@ const ProductScreen = ({ match, history }) => {
               </p>
             </div>
           </div>
+
           <div className="productscreen__right">
             <div className="right__info">
               <p>
-                Price: <span>${product.price * qty}</span>
+                Total Amount: <span>${product.price * qty}</span>
               </p>
               <p>
                 {" "}

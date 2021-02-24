@@ -19,9 +19,11 @@ const Navbar = ({ click }) => {
     <nav className="navbar">
       {/*//? logo */}
       <div className="navbar__logo">
-        <h2>
-          <SiShopify /> Shopifly
-        </h2>
+        <Link to="/">
+          <h2>
+            <SiShopify /> Shopifly
+          </h2>
+        </Link>
       </div>
       {/*//? links */}
       <div className="cart-link-container">
@@ -36,17 +38,17 @@ const Navbar = ({ click }) => {
             }}
           >
             <Link style={{ color: "#fff" }} className="shop" to="/">
-              Shop
+              Products
             </Link>
           </li>
           <li>
-            <Link className="about" to="/about">
+            <Link className="about anchor" to="/about">
               About
             </Link>
           </li>
 
           <li>
-            <Link className="contact" to="/contact">
+            <Link className="contact anchor" to="/contact">
               Contact
             </Link>
           </li>
