@@ -4,11 +4,16 @@
   margin-bottom: 8px;
   display: grid;
   grid-template-columns: 1fr 4fr 1fr 1fr 1fr;
-  background: #fff;
+  background: #d5e5b5;
   border-radius: 10px;
   place-items: center;
 
+  .cartitem__image img {
+    border-radius: 10px;
+  }
+
   .cartitem__name {
+    font-size: 1.2rem;
     text-decoration: none;
     color: #222;
   }
@@ -18,15 +23,22 @@
     color: red;
   }
 
-  .caritem__select {
+  .cartitem__select {
     padding: 5px;
-    border: none;
+    border: none !important;
+    font-size: 0.9rem;
+    background: #d5e5b5;
+  }
+
+  .cartitem__price {
+    padding: 0.8rem;
+    font-weight: 300 !important;
   }
 
   .caritem__deleteBtn {
-    font-size: 1.5rem;
-    color: red;
-    background: #f4f4f4;
+    font-size: 1.3rem;
+
+    background: #d5e5b5;
     border: none;
     cursor: pointer;
     transition: all 0.3s ease-out;
@@ -35,7 +47,7 @@
 
 @media (max-width: 700px) {
   .cartitem__name {
-    font-size: 0.8rem;
+    font-size: 1rem !important;
   }
 
   .caritem__select,
@@ -50,7 +62,7 @@
 
 @media (max-width: 500px) {
   .cartitem__name {
-    font-size: 0.6rem;
+    font-size: 0.8rem !important;
   }
 
   .caritem__select,

@@ -57,10 +57,13 @@
   }
 
   .btnn {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
     background: #004c40;
     color: #fff;
     padding: 0 10px;
-    text-transform: uppercase;
+    // text-transform: uppercase;
     cursor: pointer;
   }
 }

@@ -53,8 +53,13 @@ const CartScreen = () => {
       </div>
       <div className="cartscreen__right">
         <div className="cartscreen__info">
-          <p>Subtotal ({getCartCount()}) items</p>
-          <p>${getCartSubTotal().toFixed(2)}</p>
+          <p>
+            <b>Total Items:</b> ({getCartCount()}){" "}
+          </p>
+          <p>
+            {" "}
+            <b>Total Price:</b> ${getCartSubTotal().toFixed(2)}
+          </p>
         </div>
         <div>
           <button className="proceed" type="button">
