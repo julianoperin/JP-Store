@@ -21,7 +21,7 @@ const Navbar = ({ click }) => {
       <div className="navbar__logo">
         <Link to="/">
           <h2>
-            <SiShopify /> Shopifly
+            <SiShopify /> Horty
           </h2>
         </Link>
       </div>

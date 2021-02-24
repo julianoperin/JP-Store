@@ -7,10 +7,10 @@ const NewsLetter = () => {
     <div className="body-newsletter">
       <div className="container-newsletter">
         <form>
-          <h1>Join Our Newsletter</h1>
+          <h1>THE FUTURE OF PLANTS</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem,
-            pariatur.
+            Blending the science of horticulture with the art of design. We
+            don't want to sell you plants, we want to sell you on planting.
           </p>
           <div className="email-box">
             <div className="envelope">
