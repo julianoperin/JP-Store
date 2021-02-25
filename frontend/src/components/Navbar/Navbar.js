@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.scss";
 import { ImCart } from "react-icons/im";
-import { SiShopify } from "react-icons/si";
+import logo from "../../Assets/leafOne.svg";
 
 import { Link } from "react-router-dom";
 
@@ -19,10 +19,9 @@ const Navbar = ({ click }) => {
     <nav className="navbar">
       {/*//? logo */}
       <div className="navbar__logo">
-        <Link to="/">
-          <h2>
-            <SiShopify /> Horty
-          </h2>
+        <Link className="logo-name" to="/">
+          <img src={logo} alt="logo" />
+          <h2>Horty</h2>
         </Link>
       </div>
       {/*//? links */}
