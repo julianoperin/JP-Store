@@ -1,44 +1,51 @@
 import React from "react";
 import "./Contact.scss";
 
+import img from "../../Assets/contact.jpg";
+
 const Contact = () => {
   return (
     <div>
       <div className="contact">
-        <div className="left-side"></div>
+        <div className="left-side">
+          <img src={img} alt="contact-image" />
+          <div className="hide-photo-filterr"></div>
+        </div>
+
         <div className="right-side">
           <div id="wrapper">
-            <form action="" class="form">
-              <p class="field required half">
-                <label class="label required" for="name">
-                  Name
-                </label>
+            <form action="" className="form">
+              <h2 style={{ textAlign: "center", color: "#004C40" }}>
+                {" "}
+                BE IN TOUCH
+              </h2>
+
+              <p className="field required half">
                 <input
-                  class="text-input"
+                  placeholder="Name"
+                  className="text-input"
                   id="name"
                   name="name"
                   required
                   type="text"
                 />
               </p>
-              <p class="field required half">
-                <label class="label" for="email">
-                  E-mail
-                </label>
+
+              <p className="field required half">
                 <input
-                  class="text-input"
+                  placeholder="E-mail"
+                  className="text-input"
                   id="email"
                   name="email"
                   required
                   type="email"
                 />
               </p>
-              <p class="field">
-                <label class="label" for="message">
-                  Message
-                </label>
+
+              <p className="field">
                 <textarea
-                  class="textarea"
+                  placeholder="Message"
+                  className="textarea"
                   cols="50"
                   id="message"
                   name="message"
@@ -46,8 +53,13 @@ const Contact = () => {
                   rows="4"
                 />
               </p>
-              <p class="field">
-                <input class="button" type="submit" value="Send message" />
+              <p className="field">
+                <input
+                  className="button"
+                  type="submit"
+                  value="Send message"
+                  //   style={{ borderRadius: "10px", BackgroundColor: "#004C40" }}
+                />
               </p>
             </form>
           </div>
