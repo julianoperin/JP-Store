@@ -1,6 +1,9 @@
 .container-footer {
   max-width: 1170px;
   margin: auto;
+  .footer-col h4 {
+    color: #222;
+  }
 }
 .row {
   display: flex;
@@ -10,7 +13,7 @@ ul {
   list-style: none;
 }
 .footer {
-  background-color: #004c40;
+  background-color: #d5e5b5;
   padding: 70px 0;
 }
 .footer-col {
@@ -30,7 +33,7 @@ ul {
   position: absolute;
   left: 0;
   bottom: -10px;
-  background-color: #e91e63;
+  background-color: #004c40;
   height: 2px;
   box-sizing: border-box;
   width: 50px;
@@ -44,24 +47,24 @@ ul {
   color: #ffffff;
   text-decoration: none;
   font-weight: 300;
-  color: #bbbbbb;
+  color: #222;
   display: block;
-  transition: all 0.3s ease;
+  transition: all 0.3s ease-in-out;
 }
 .footer-col ul li a:hover {
-  color: #ffffff;
   padding-left: 8px;
+  font-weight: 400;
 }
 .footer-col .social-links a {
   display: inline-block;
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
   background-color: rgba(255, 255, 255, 0.2);
   margin: 0 10px 10px 0;
   text-align: center;
-  line-height: 40px;
+  line-height: 54px;
   border-radius: 50%;
-  color: #ffffff;
+  color: #004c40;
   transition: all 0.5s ease;
 }
 .footer-col .social-links a:hover {
@@ -74,10 +77,6 @@ ul {
   .footer-col {
     width: 50%;
     margin-bottom: 30px;
-
-    .flex-names {
-      display: flex;
-    }
   }
 }
 @media (max-width: 574px) {

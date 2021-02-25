@@ -1,12 +1,19 @@
 import React from "react";
 import "./Footer.scss";
 
+import {
+  AiFillFacebook,
+  AiOutlineTwitter,
+  AiFillInstagram,
+  AiFillLinkedin,
+} from "react-icons/ai";
+
 const Footer = () => {
   return (
     <footer class="footer">
       <div class="container-footer">
         <div class="row">
-          <div class="footer-col flex-names">
+          <div class="footer-col">
             <h4>company</h4>
             <ul>
               <li>
@@ -64,16 +71,16 @@ const Footer = () => {
             <h4>follow us</h4>
             <div class="social-links">
               <a href="#">
-                <i class="fab fa-facebook-f"></i>
+                <AiFillFacebook />
               </a>
               <a href="#">
-                <i class="fab fa-twitter"></i>
+                <AiOutlineTwitter />
               </a>
               <a href="#">
-                <i class="fab fa-instagram"></i>
+                <AiFillInstagram />
               </a>
               <a href="#">
-                <i class="fab fa-linkedin-in"></i>
+                <AiFillLinkedin />
               </a>
             </div>
           </div>
