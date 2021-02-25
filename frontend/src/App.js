@@ -8,6 +8,7 @@ import HomeScreen from "./screens/HomeScreen/HomeScreen.js";
 import ProductScreen from "./screens/ProductScreen/ProductScreen.js";
 import CartScreen from "./screens/CartScreen/CartScreen.js";
 import About from "./screens/About/About.js";
+import Contact from "./screens/Contact/Contact.js";
 
 //! Component
 import Navbar from "./components/Navbar/Navbar";
@@ -27,6 +28,7 @@ function App() {
           <Route exact path="/product/:id" component={ProductScreen} />
           <Route exact path="/cart" component={CartScreen} />
           <Route exact path="/about" component={About} />
+          <Route exact path="/contact" component={Contact} />
         </Switch>
       </main>
     </Router>
