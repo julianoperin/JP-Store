@@ -2,14 +2,18 @@ import React from "react";
 import "./Contact.scss";
 
 import img from "../../Assets/contact.jpg";
+import Footer from "../../components/Footer/Footer";
 
 const Contact = () => {
   return (
     <div>
       <div className="contact">
         <div className="left-side">
-          <img src={img} alt="contact-image" />
-          <div className="hide-photo-filterr"></div>
+          <h1> Let's Talk!</h1>
+          <h3>
+            We are building a community of urban gardeners who aspire to
+            cultivate cleaner, happier lives.
+          </h3>
         </div>
 
         <div className="right-side">
@@ -65,6 +69,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
