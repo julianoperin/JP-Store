@@ -51,19 +51,19 @@ const Footer = () => {
             </ul>
           </div>
           <div class="footer-col">
-            <h4>online shop</h4>
+            <h4>indoor plants</h4>
             <ul>
               <li>
-                <a href="#">watch</a>
+                <a href="#">outdoor plants</a>
               </li>
               <li>
-                <a href="#">bag</a>
+                <a href="#">referrals</a>
               </li>
               <li>
-                <a href="#">shoes</a>
+                <a href="#">gift card</a>
               </li>
               <li>
-                <a href="#">dress</a>
+                <a href="#">careers</a>
               </li>
             </ul>
           </div>
