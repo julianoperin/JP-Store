@@ -1,7 +1,7 @@
 import React from "react";
 import "./Contact.scss";
 
-import img from "../../Assets/contact.jpg";
+// import img from "../../Assets/contact.jpg";
 import Footer from "../../components/Footer/Footer";
 
 const Contact = () => {
